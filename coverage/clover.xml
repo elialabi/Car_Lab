@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683266294017" clover="3.2.0">
-  <project timestamp="1683266294017" name="All files">
+<coverage generated="1683267003355" clover="3.2.0">
+  <project timestamp="1683267003355" name="All files">
     <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6" elements="24" coveredelements="22" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="car.js" path="/Users/elizabeth.a/bnta_work/week_07/day_4/car_dealership/car.js">
       <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
