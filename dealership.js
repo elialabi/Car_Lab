@@ -24,21 +24,5 @@ const Dealership = function (name, maxNoOfCars){
   };
 
 
-//     Car.prototype.hasPrice = function() {
-//     return !!this.price;
-//  };
-
-//     Car.prototype.setPrice = function(price){
-//     this.price = price;
-// };
-
-//     Car.prototype.hasEngine = function() {
-//         return !!this.engineType;
-// };
-
-//     Car.prototype.setEngine = function(engineType){
-//         this.manufacturer = engineType;
-// };
-
 module.exports = Dealership;
 module.exports = Car;
