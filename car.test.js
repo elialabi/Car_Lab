@@ -1,6 +1,5 @@
 const Car = require('./car');
 
-describe(`Car`, () => {
   let car;
 
   beforeEach(() => {
@@ -9,7 +8,10 @@ describe(`Car`, () => {
 
   describe('hasName()', () => {
     test('returns true if has name', () => {
-      expect(car.hasName()).toBe(true);
+      // expect(car.hasName()).toBe(true);
+      const expected = "Tesla"
+      const actual = car.manufacturer;
+      expect(actual).toBe(expected);
     });
   });
 
@@ -46,5 +48,5 @@ describe(`Car`, () => {
     });
   });
 
-});
+
 

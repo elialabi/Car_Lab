@@ -1,5 +1,5 @@
-const{Dealership, Car }= require('./dealership', './car');
-
+const  Dealership = require('./dealership');
+const Car = require('./car');
 
 
 describe(`Dealership`, () => {

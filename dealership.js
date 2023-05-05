@@ -1,7 +1,7 @@
 const Dealership = function (name, maxNoOfCars){
     this.name = name;
     this.maxNoOfCars = maxNoOfCars;
-    this.stock = [Car];
+    this.stock = [];
 
 };
 
@@ -19,10 +19,9 @@ const Dealership = function (name, maxNoOfCars){
 };
 
     Dealership.prototype.getAllCarManufacturers = function() {
-        const manufacturers = this.stock.map(car => car.manufacturer); r
+        const manufacturers = this.stock.map(car => car.manufacturer); 
         return Array.from(new Set(manufacturers));
   };
 
 
 module.exports = Dealership;
-module.exports = Car;
